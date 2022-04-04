@@ -18,4 +18,10 @@ public class ApplicationController {
     {
         return "Software developer";
     }
+
+    @GetMapping("/address")
+    public String address()
+    {
+        return "Inspiria Mall |  Pune  |  Maharashtra ";
+    }
 }
